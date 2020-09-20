@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GitHub Commands</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6a9a7e3ef8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@900&display=swap" rel="stylesheet">
+    <style media="screen">
+      body{
+        text-align:center;
+      }
+      header{
+        background-color:#414141;
+        padding:1% 0 0.5%
+      }
+      h1 , h2{
+        color:#fddb3a;
+        font-family:"Source Sarif Pro";
+        font-weight:700;
+      }
+      .version{
+        margin:3% 0 3%;
+        background-color:#414141;
+        padding:2% 3% 2.5%
+      }
+      .para{
+        background-color:#4c4c4c;
+        padding:2% 5% 1.5%
+      }
+    p{
+      color:white;
+      font-size:1.3rem;
+      text-align:left;
+    }
+    span{
+      color:#ffd31d;
+    }
+      .rule{
+        border-style:none;
+        border-top-style:groove;
+        border-width:thick;
+        margin:3% 0 3%;
+      }
+      .mid{
+        padding:0 3% 0%;
+      }
+      .card{
+        background-color:#414141;
+      }
+      h3{
+        color:white;
+        margin-top:7px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <i class="fab fa-github" style="color:#ffd31d;font-size:3rem; "></i>
+      <h1>A GitHub page about GitHub</h1>
+    </header>
+ <article class="version">
+   <h2 style="margin-bottom:1%">Version Control</h2>
+   <div class="para">
+     <p>Version control allows you to keep track of your work and helps you to easily explore the changes you have made in your projects. <br>
+      With <span>version control software such as Git</span>, version control is much smoother and easier to implement on an online platform like Github.<br>
+      Having a <span>GitHub repo</span> makes it easy for you to keep track of collaborative and personal projects  since each file on GitHub has a history<br>
+      making it easier to explore the changes that occurred to it at different points of time. For personal projects, version control allows you to keep<br>
+      track of your work and <span> provides an easy navigation among the many versions of the files you create </span>while maintaining an online backup too.</p>
+   </div>
+ </article>
+ <hr class="rule">
+ <section class="mid">
+   <h2 style="margin-bottom:1.5%;background-color:#414141;padding:0.5% 0 1%; ">GitHub Commands</h2>
+   <div class="row" style="margin-top:1.5%">
+     <div class="col-lg-4 col-md-6 col-sm-12">
+       <div class="card">
+         <div class="card-header">
+           <i class="fas fa-copy"style="color:#ffd31d;font-size:3rem; "></i>
+           <h3>Clone</h3>
+         </div>
+         <div class="card-body">
+           <ul>
+             <li><p>Use <span>git clone</span>  command to create a copy of a specific repository</p></li>
+             <li><p>By cloning we get all files , branches , commits of the repo </p></li>
+             <li><p>After a repo is cloned we can interact with it localy</p></li>
+
+           </ul>
+         </div>
+       </div>
+     </div>
+     <div class="col-lg-4 col-md-6 col-sm-12">
+       <div class="card">
+         <div class="card-header">
+           <i class="fab fa-git-alt"style="color:#ffd31d;font-size:3rem; "></i>
+           <h3>Push</h3>
+         </div>
+         <div class="card-body">
+          <ul>
+            <li><p>Use <span> git push</span> to push commits made on the local branch to a remote repo.</p></li>
+            <li><p>It takes first argument as a remote name <span>for example origin</span>.</p></li>
+            <li><p>Branch name <span>for example master</span> is given as second argument. </p></li>
+          </ul>
+         </div>
+       </div>
+     </div>
+     <div class="col-lg-4 col-md-12 col-sm-12">
+       <div class="card">
+         <div class="card-header">
+           <i class="fas fa-code"style="color:#ffd31d;font-size:3rem; " ></i>
+           <h3>Commit</h3>
+         </div>
+         <div class="card-body">
+           <ul>
+             <li><p>Use <span>git commit</span> command to save changes to the local repo.</p></li>
+             <li><p>We can also give a commit message using <span>-m</span></p></li>
+             <li><p>Only the changes added in <span>staging area</span> are commited.</p></li>
+           </ul>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <hr class="rule">
+ <footer  style=" background-color:#414141; padding:1.5% 0 1%">
+   <h3 style="margin-bottom:13px;">Let's make your first GitHub Repo !</h3>
+   <a href="https://github.com/" ><button type="button" name="button" class="btn btn-lg btn-light" style="background-color:#ffd31d;font-size:1.3rem">Click Here</button></a>
+ </footer>
+  </body>
+</html>
